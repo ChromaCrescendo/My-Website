@@ -1,3 +1,6 @@
+/*import the fonts before you add their selectors*/
+@import url('https://fonts.googleapis.com/css?family=Almendra|Cinzel|Cormorant+Garamond|IM+Fell+DW+Pica+SC|IM+Fell+Great+Primer+SC|Open+Sans+Condensed:300|Oswald');
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
@@ -8,10 +11,32 @@ body {
 	text-align: center;
 }
 
-/*.jumbotron h1 {
-	font-family: 'Arvo', courier, serif;
-}*/
+.jumbotron h1 {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+	font-family: 'IM Fell DW Pica SC', serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+nav {
+	font-family: 'Cinzel', serif;
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
 .btn-lg {
 	font-size: 36px;
+}
+
+.bimg {
+	background-image: url(7e631f3675f13766a0b956e7e2628719.jpg);
 }
