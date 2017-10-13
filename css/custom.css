@@ -20,8 +20,9 @@ h2 {
 	text-shadow: 4px 4px 4px #aaa;
 }
 
-nav {
+ul.nav {
 	font-family: 'Cinzel', serif;
+	font-size: 13px;
 }
 
 p{
